@@ -1,3 +1,4 @@
+package com.lessons;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
 import com.lessons.Main;
