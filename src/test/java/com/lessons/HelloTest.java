@@ -10,12 +10,9 @@ import org.junit.jupiter.params.provider.CsvSource;
 import java.io.*;
 
 public class HelloTest {
-    public static void main(String args[]) {
-        testHelloWorld();
-    }
 
     @Test
-    public static void testHelloWorld()
+    public  void testHelloWorld()
     {
         PrintStream originalOut = System.out;
         ByteArrayOutputStream bos = new ByteArrayOutputStream();
